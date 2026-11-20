@@ -8,7 +8,7 @@ Methods: Cortical thickness and surface area were measured in >1,000 healthy con
 
 Results: T1w images annotated with deviations scores created interactive, personalized MRIs that identified subtle alterations in the cortex and subcortical regions, which are not otherwise detectable on standard T1w images. Summary statistics provide additional context for the interpretation of subtle alterations. 
 
-Conclusions: Deviation scores allow disparate neuroimaging measures like regional cortical thickness and subcortical volumes to be visualized and compared on an individual basis. The methodology is extendable to structural and functional connectivity, which may facilitate the identification of personalized cortical and subcortical targets for both invasive and non-invasive neuromodulation.
+Conclusions: Deviation scores allow disparate neuroimaging measures like regional cortical thickness and subcortical volumes to be visualized and compared across structures on an individual basis. The methodology is extendable to structural and functional connectivity, which may facilitate the identification of personalized cortical and subcortical targets for both invasive and non-invasive neuromodulation.
 
 https://github.com/user-attachments/assets/fadbb74e-08f6-4010-960b-6d6c94790076
 
