@@ -9,5 +9,7 @@ Results: T1w images annotated with deviations scores created interactive, person
 
 Conclusions: Deviation scores allow disparate neuroimaging measures like regional cortical thickness and subcortical volumes to be visualized and compared on an individual basis. The methodology is extendable to structural and functional connectivity, which may facilitate the identification of personalized cortical and subcortical targets for both invasive and non-invasive neuromodulation.
 
-<img width="801" height="477" alt="videos_axial_short" src="https://github.com/user-attachments/assets/37dcaee7-e21d-42d1-a62a-0162be10a376" />
+https://github.com/user-attachments/assets/fadbb74e-08f6-4010-960b-6d6c94790076
+
+
 
