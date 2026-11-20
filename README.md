@@ -1,6 +1,6 @@
 # VIDEOS
 ## <ins>Vi</ins>sualization of <ins>De</ins>viati<ins>o</ins>n <ins>S</ins>cores
-### Personalized MRI in Neuropsychiatry
+### Personalized MRI in Schizophrenia and Neuropsychiatry
 
 Background: Schizophrenia is a devastating, complex, and heterogeneous neuropsychiatric disorder. While there is an extensive literature on neuroimaging in schizophrenia and emerging evidence that it may be an important tool for planning and monitoring response to interventions like TMS, it is not routinely used in clinical care in schizophrenia. Several commercial products are available that potentially address subtle MRI findings, however, they are focused on atrophy and neurodegeneration, have coarse volumetric segmentations, and only generate a report rather than annotated images.
 
