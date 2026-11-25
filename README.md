@@ -1,14 +1,14 @@
 # VIDEOS
 ## <ins>Vi</ins>sualization of <ins>De</ins>viati<ins>o</ins>n <ins>S</ins>cores
-### Personalized MRI in Schizophrenia and Neuropsychiatry
+### Personalized MRI in Schizophrenia
 
-Background: Schizophrenia is a devastating, complex, and heterogeneous neuropsychiatric disorder. While there is an extensive literature on neuroimaging in schizophrenia and emerging evidence that it may be an important tool for planning and monitoring response to interventions like TMS, it is not routinely used in clinical care in schizophrenia. Several commercial products are available that potentially address subtle MRI findings, however, they are focused on atrophy and neurodegeneration, have coarse volumetric segmentations, and only generate a report rather than annotated images.
+Background: Schizophrenia is a devastating, complex, and heterogeneous neuropsychiatric disorder. While there is an extensive literature on neuroimaging in schizophrenia and emerging evidence that it may be an important tool for planning and monitoring response to interventions like TMS, it is not routinely used in clinical care in schizophrenia. Several commercial products are available that potentially address subtle MRI findings, however, they are focused on atrophy and neurodegeneration, have coarse volumetric segmentations, and only generate a report rather than annotated images. Further, the current literature on normative modeling and brain charts remains focused on group-level analyses and has not translated to individual-level insights.
 
-Methods: Cortical thickness and surface area were measured in >1,000 healthy controls and >100 participants with schizophrenia using Freesurfer and divided into 180 bilateral cortical regions using the Glasser/HCPMMP1 atlas. The volumes of 18 bilateral subcortical structures including 10 thalamic nuclei, basal ganglia, and the claustrum were measured using sTHOMAS. Individual deviation scores (i.e. z-scores) relative to the reference population of healthy controls were calculated for all measures, mapped to T1w images, and summarized across lobes, canonical networks, and cortical functional groups.
+Methods: Cortical thickness and surface area for 180 bilateral cortical regions and the volumes of 18 bilateral subcortical structures including 10 thalamic nuclei, basal ganglia, and the claustrum were measured in 2,475 healthy control participants and 114 participants with schizophrenia using Freesurfer and sTHOMAS, respectively. Individual deviation scores (i.e. z-scores) relative to the reference population of healthy controls were calculated for all measures. Cross-sectional and longitudinal vignettes were developed that include deviations scores mapped to interactive T1w images and summarized across lobes, canonical networks, and cortical functional groups.
 
-Results: T1w images annotated with deviations scores created interactive, personalized MRIs that identified subtle alterations in the cortex and subcortical regions, which are not otherwise detectable on standard T1w images. Summary statistics provide additional context for the interpretation of subtle alterations. 
+Results: 
 
-Conclusions: Deviation scores allow disparate neuroimaging measures like regional cortical thickness and subcortical volumes to be visualized and compared across structures on an individual basis. The methodology is extendable to structural and functional connectivity, which may facilitate the identification of personalized cortical and subcortical targets for both invasive and non-invasive neuromodulation.
+Conclusions: Interactive, annotated MRIs allow visualization of subtle alterations that are not otherwise detectable on standard T1w images. Summary statistics provide additional context for individual-level assessment. The methodology is extendable to structural and functional connectivity, which may facilitate the identification of personalized cortical and subcortical targets for both invasive and non-invasive neuromodulation.
 
 https://github.com/user-attachments/assets/fadbb74e-08f6-4010-960b-6d6c94790076
 
@@ -16,8 +16,8 @@ https://github.com/user-attachments/assets/fadbb74e-08f6-4010-960b-6d6c94790076
 
 
 
-**Table 1 -** Most severe deviations in the thalamus and subcortical regions. For deviation, 1=Yes, 0=No
-| label | name | z | deviation |
+**Table 1 -** Most severe deviations in the thalamus and subcortical regions.
+| Label | Name | z-score | Deviation (1=Yes, 0=No) |
 | --- | --- | --- | --- |
 | R12 | Mediodorsal-Parafascicular (MD-Pf) - Right | -3.519983466 | 1 |
 | R8 | Pulvinar (Pul) - Right | -2.811988485 | 1 |
@@ -28,8 +28,8 @@ https://github.com/user-attachments/assets/fadbb74e-08f6-4010-960b-6d6c94790076
 
 
 
-**Table 2 -** Individual cortical regions with the most severe deviation scores in cortical thickness. or deviation, 1=Yes, 0=No
-| label | z | deviation | name | lobe | cortex | network | laterality |
+**Table 2 -** Individual cortical regions with the most severe deviation scores in cortical thickness.
+| Label | z-score | Deviation (1=Yes, 0=No) | Name | Lobe | Cortical Region | Canonical Network | Laterality |
 | --- |--- |--- |--- |--- |--- |--- |--- |
 | R_PSL | -4.78083086613012 | 1 | PeriSylvian - Leftanguage Area - Right | Parietal | Temporo-Parieto-Occipital Junction | Ventral Attention | Right |
 | R_PFm | -4.5149346187815 | 1 | Area PFm Complex - Right | Parietal | Inferior Parietal | Frontoparietal | Right |
@@ -45,7 +45,7 @@ https://github.com/user-attachments/assets/fadbb74e-08f6-4010-960b-6d6c94790076
 
 
 **Table 3 -** Cortical functional groups with the most severe deviations in cortical thickness
-| laterality | cortex | n.roi | n.deviations | pct.deviation | min.z | max.z | mean.z | mean.abs.z |
+| Laterality | Cortical Group | Number Subregions | Number Deviations | % Deviation | z-min | z-max | z-mean | z-mean of absolute |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Right | Temporo-Parieto-Occipital Junction | 5 | 5 | 1 | -4.78 | -2.63 | -3.42 | 3.42 |
 | Left | Early Visual | 3 | 3 | 1 | -3.35 | -1.99 | -2.55 | 2.55 |
@@ -69,7 +69,7 @@ https://github.com/user-attachments/assets/fadbb74e-08f6-4010-960b-6d6c94790076
 
 
 **Table 4 -** Canonical networks with most severe deviations in surface area
-| laterality | network | n.roi | n.deviations | pct.deviation | min.z | max.z | mean.z | mean.abs.z |
+| Laterality | Network | Number Subregions | Number Deviations | % Deviation | z-min | z-max | z-mean | z-mean of absolute |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Left | Somatomotor | 27 | 12 | 0.44 | -0.75 | 4.66 | 2.06 | 2.12 |
 | Right | Default | 34 | 15 | 0.44 | -1.37 | 4.58 | 1.65 | 1.82 |
