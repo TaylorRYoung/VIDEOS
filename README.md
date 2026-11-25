@@ -45,7 +45,7 @@ https://github.com/user-attachments/assets/fadbb74e-08f6-4010-960b-6d6c94790076
 
 
 **Table 3 -** Cortical functional groups with the most severe deviations in cortical thickness
-| Laterality | Cortical Group | Number Subregions | Number Deviations | % Deviation | z-min | z-max | z-mean | z-mean of absolute |
+| Laterality | Cortical Group | Number Subregions | Number Deviations | % Deviation | z-min | z-max | z-mean | \|z\|-mean |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Right | Temporo-Parieto-Occipital Junction | 5 | 5 | 1 | -4.78 | -2.63 | -3.42 | 3.42 |
 | Left | Early Visual | 3 | 3 | 1 | -3.35 | -1.99 | -2.55 | 2.55 |
@@ -69,7 +69,7 @@ https://github.com/user-attachments/assets/fadbb74e-08f6-4010-960b-6d6c94790076
 
 
 **Table 4 -** Canonical networks with most severe deviations in surface area
-| Laterality | Network | Number Subregions | Number Deviations | % Deviation | z-min | z-max | z-mean | z-mean of absolute |
+| Laterality | Network | Number Subregions | Number Deviations | % Deviation | z-min | z-max | z-mean | \|z\|-mean |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Left | Somatomotor | 27 | 12 | 0.44 | -0.75 | 4.66 | 2.06 | 2.12 |
 | Right | Default | 34 | 15 | 0.44 | -1.37 | 4.58 | 1.65 | 1.82 |
