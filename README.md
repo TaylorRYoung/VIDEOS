@@ -15,7 +15,8 @@ https://github.com/user-attachments/assets/fadbb74e-08f6-4010-960b-6d6c94790076
 **Figure 1 -** Scrollable MRI annotated with deviation scores (|z| > 1.96)
 
 
-**Table 1 -** Most severe deviations in the thalamus and subcortical regions
+
+**Table 1 -** Most severe deviations in the thalamus and subcortical regions. For deviation, 1=Yes, 0=No
 | label | name | z | deviation |
 | --- | --- | --- | --- |
 | R12 | Mediodorsal-Parafascicular (MD-Pf) - Right | -3.519983466 | 1 |
@@ -26,7 +27,8 @@ https://github.com/user-attachments/assets/fadbb74e-08f6-4010-960b-6d6c94790076
 | R26 | Accumbens Area (Acc) - Right | 2.902897511 | 1 |
 
 
-**Table 2 -** Individual cortical regions with the most severe deviation scores in cortical thickness
+
+**Table 2 -** Individual cortical regions with the most severe deviation scores in cortical thickness. or deviation, 1=Yes, 0=No
 | label | z | deviation | name | lobe | cortex | network | laterality |
 | --- |--- |--- |--- |--- |--- |--- |--- |
 | R_PSL | -4.78083086613012 | 1 | PeriSylvian - Leftanguage Area - Right | Parietal | Temporo-Parieto-Occipital Junction | Ventral Attention | Right |
@@ -39,6 +41,7 @@ https://github.com/user-attachments/assets/fadbb74e-08f6-4010-960b-6d6c94790076
 | R_V6A | -3.58289844724316 | 1 | Area V6A - Right | Parietal | Dorsal Stream Visual | Visual | Right |
 | R_OP1 | -3.56181920973329 | 1 | Area OP1-SII - Right | Parietal | Posterior Opercular | Somatomotor | Right |
 | L_LO1 | -3.55593228759335 | 1 | Area - Lateral Occipital 1 - Left | Occipital | MT+ Complex and Neighboring Visual Areas | Visual | Left |
+
 
 
 **Table 3 -** Cortical functional groups with the most severe deviations in cortical thickness
@@ -62,6 +65,7 @@ https://github.com/user-attachments/assets/fadbb74e-08f6-4010-960b-6d6c94790076
 | Right | Auditory Association | 8 | 4 | 0.5 | -3.5 | -0.64 | -2 | 2 |
 | Left | Auditory Association | 8 | 4 | 0.5 | -2.98 | -0.48 | -1.91 | 1.91 |
 | Left | Dorsolateral Prefrontal | 13 | 6 | 0.46 | -2.83 | -1.11 | -1.83 | 1.83 |
+
 
 
 **Table 4 -** Canonical networks with most severe deviations in surface area
